@@ -3,5 +3,18 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "author": "Carmine Di Monaco <carmine.dimonaco@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch ",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.8.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.8",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.10.0"
+  }
 }

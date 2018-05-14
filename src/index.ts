@@ -1,6 +1,8 @@
+import { config } from 'dotenv';
+config();
 class Bot {
   start() : void {
-    console.log('Ok');
+    console.log(process.env.BOT_NAME);
   }
 }
 

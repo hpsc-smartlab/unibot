@@ -1,0 +1,7 @@
+{
+  "name": "unibot",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "author": "Carmine Di Monaco <carmine.dimonaco@gmail.com>",
+  "license": "MIT"
+}
